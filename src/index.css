@@ -34,10 +34,23 @@ html {
     --btn-ff: normal 500 1.4rem/1.6rem 'Inter', sans-serif;
     --p-ff: normal 400 1rem/1.5rem 'Inter', sans-serif;
     --h2-ff: normal 700 1.6rem/2.4rem 'Inter', sans-serif;
+
+    /**** shadows ****/
+    --bg-shadow: box-shadow: 0px 4px 4px 0px #00000040;
+
 }
 
+body {
+    background-color: #23252C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
 
-
-@media (min-width: 360px) {
-
+#root {
+    width: 31.7em;
+    height: 78em;
+    background-color: white;
+    box-shadow: var(--bg-shadow);
 }
