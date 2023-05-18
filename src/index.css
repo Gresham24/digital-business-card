@@ -1,9 +1,40 @@
-:root {
-
-
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+html {
+    /* Used the 62.5% font size trick to convert the root 16px to base-10 system while using rems */
+    font-size: 62.5%;
+}
 
+/* ============================
+
+            CUSTOM VARIABLES
+
+=============================== */
+
+:root {
+    /**** colors ****/
+    --light-blue: #5093E2;
+    --peach: #F3BF99;
+    --white: #F5F5F5;
+    --off-white: #DCDCDC;
+    --grey: #918E9B;
+    --light-navy: #1A1B21;
+    --dark-navy: #161619;
+    --black: #1E1F26;
+
+    /**** font ****/
+    --name-ff: normal 700 2.5rem/2rem 'Inter', sans-serif;
+    --role-ff: normal 400 1.2rem/1.5rem 'Inter', sans-serif;
+    --btn-ff: normal 500 1.4rem/1.6rem 'Inter', sans-serif;
+    --p-ff: normal 400 1rem/1.5rem 'Inter', sans-serif;
+    --h2-ff: normal 700 1.6rem/2.4rem 'Inter', sans-serif;
+}
 
 @media (min-width: 360px) {
 

@@ -20,11 +20,13 @@ html {
 :root {
     /**** colors ****/
     --light-blue: #5093E2;
-    --yellow: #F3BF99;
+    --peach: #F3BF99;
     --white: #F5F5F5;
+    --off-white: #DCDCDC;
     --grey: #918E9B;
     --light-navy: #1A1B21;
     --dark-navy: #161619;
+    --black: #1E1F26;
 
     /**** font ****/
     --name-ff: normal 700 2.5rem/2rem 'Inter', sans-serif;
