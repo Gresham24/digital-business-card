@@ -53,4 +53,5 @@ body {
     height: 78em;
     background-color: white;
     box-shadow: var(--bg-shadow);
+    border-radius: 10px;
 }

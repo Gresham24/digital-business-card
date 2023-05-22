@@ -3,17 +3,23 @@ import "./Info.css";
 function Info() {
     return (
         <div className="info">
-            <h1>Vite + React</h1>
-            <p className="read-the-docs">
-                Click on the Vite and React logos to learn more
-            </p>
+            <img
+                className="profile-pic"
+                src="src/assets/profile.svg"
+                alt="profile picture"
+            />
+            <h1 className="name">Laura Smith</h1>
+            <p className="role">Frontend Developer</p>
+            <p className="website-link">laurasmith.website</p>
+            <div className="contact-btns">
+                <button className="email">Email</button>
+                <button className="linkedin">LinkedIn</button>
+            </div>
         </div>
     );
 }
 
 export default Info;
-
-
 
 /* 
 

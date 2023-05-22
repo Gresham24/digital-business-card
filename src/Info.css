@@ -19,24 +19,55 @@ html {
 
 :root {
     /**** colors ****/
-    --light-blue: #5093E2;
-    --peach: #F3BF99;
-    --white: #F5F5F5;
-    --off-white: #DCDCDC;
-    --grey: #918E9B;
-    --light-navy: #1A1B21;
+    --light-blue: #5093e2;
+    --peach: #f3bf99;
+    --white: #f5f5f5;
+    --off-white: #dcdcdc;
+    --grey: #918e9b;
+    --light-navy: #1a1b21;
     --dark-navy: #161619;
-    --black: #1E1F26;
+    --black: #1e1f26;
 
     /**** font ****/
-    --name-ff: normal 700 2.5rem/2rem 'Inter', sans-serif;
-    --role-ff: normal 400 1.2rem/1.5rem 'Inter', sans-serif;
-    --btn-ff: normal 500 1.4rem/1.6rem 'Inter', sans-serif;
-    --p-ff: normal 400 1rem/1.5rem 'Inter', sans-serif;
-    --h2-ff: normal 700 1.6rem/2.4rem 'Inter', sans-serif;
+    --name-ff: normal 700 2.5rem/2rem "Inter", sans-serif;
+    --role-ff: normal 400 1.2rem/1.5rem "Inter", sans-serif;
+    --btn-ff: normal 500 1.4rem/1.6rem "Inter", sans-serif;
+    --p-ff: normal 400 1rem/1.5rem "Inter", sans-serif;
+    --h2-ff: normal 700 1.6rem/2.4rem "Inter", sans-serif;
 }
-
 
 .info {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font: var(--name-ff);
+    color: #2b283a; /* change font color white */
+}
+
+.role {
+    font: var(--role-ff);
+    color: var(--peach);
+}
+
+.website-link {
+    font: var(--p-ff);
+}
+
+
+.contact-btns {
+    display: flex;
+    align-items: center;
+    gap: 1.7em;
+}
+
+.contact-btns button {
+    font: var(--btn-ff);
+    /* padding: .1em; */
+}
+
+.email::before {
+    /* content: url(https://icons8.com/icon/hf35HOxizD5q/envelope); */
 }
