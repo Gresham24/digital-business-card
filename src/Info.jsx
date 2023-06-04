@@ -8,12 +8,23 @@ function Info() {
                 src="src/assets/profile.svg"
                 alt="profile picture"
             />
-            <h1 className="name">Laura Smith</h1>
-            <p className="role">Frontend Developer</p>
-            <p className="website-link">laurasmith.website</p>
-            <div className="contact-btns">
-                <button className="email">Email</button>
-                <button className="linkedin">LinkedIn</button>
+            <div className="info-content">
+                <h1 className="name">Laura Smith</h1>
+                <p className="role">Frontend Developer</p>
+                <p className="website-link">laurasmith.website</p>
+                <div className="contact-btns">
+                    <button className="email">
+                        <img src="src/assets/email.png" alt="image of email" />
+                        Email
+                    </button>
+                    <button className="linkedIn">
+                        <img
+                            src="src/assets/linkedIn.png"
+                            alt="linkedin logo"
+                        />
+                        LinkedIn
+                    </button>
+                </div>
             </div>
         </div>
     );

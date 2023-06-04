@@ -36,15 +36,18 @@ html {
     --h2-ff: normal 700 1.6rem/2.4rem "Inter", sans-serif;
 }
 
-.info {
+/* info section content */
+.info-content {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: .8rem;
 }
 
 .name {
     font: var(--name-ff);
-    color: #2b283a; /* change font color white */
+    color: #FFFFFF; 
 }
 
 .role {
@@ -54,20 +57,34 @@ html {
 
 .website-link {
     font: var(--p-ff);
+    color: var(--white);
 }
 
-
+/* Buttons */
 .contact-btns {
+    margin-top: 0.7rem;
     display: flex;
-    align-items: center;
-    gap: 1.7em;
+    gap: 1.7rem;
 }
 
 .contact-btns button {
     font: var(--btn-ff);
-    /* padding: .1em; */
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    border-radius: 6px;
+    padding: .9rem 3rem;
+    cursor: pointer;
 }
 
-.email::before {
-    /* content: url(https://icons8.com/icon/hf35HOxizD5q/envelope); */
+.email {
+    background-color: white;
+    border: solid 1px #D1D5DB;
+
+}
+
+.linkedIn {
+    background-color: var(--light-blue);
+    color: white;
+    border: none;
 }
