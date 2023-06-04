@@ -33,7 +33,7 @@ html {
     --role-ff: normal 400 1.2rem/1.5rem "Inter", sans-serif;
     --btn-ff: normal 500 1.4rem/1.6rem "Inter", sans-serif;
     --p-ff: normal 400 1rem/1.5rem "Inter", sans-serif;
-    --h2-ff: normal 700 1.6rem/2.4rem "Inter", sans-serif;
+    --h1-ff: normal 700 1.6rem/2.4rem "Inter", sans-serif;
 
     /**** shadow ****/
     --btn-shadow: 0px 1px 2px 0px #0000000D;
@@ -42,10 +42,11 @@ html {
 /* info section content */
 .info-content {
     margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: .8rem;
+    text-align: center;
+}
+
+.info-content > * {
+    margin-top: 0.8rem;
 }
 
 .name {
@@ -65,9 +66,10 @@ html {
 
 /* Buttons */
 .contact-btns {
-    margin-top: 0.7rem;
     display: flex;
+    justify-content: center;
     gap: 1.7rem;
+    padding: 0.8rem 3.6rem 0;
 }
 
 .contact-btns button {
@@ -76,7 +78,7 @@ html {
     align-items: center;
     gap: .8rem;
     border-radius: 6px;
-    padding: .9rem 3rem;
+    padding: .9rem 10%;
     cursor: pointer;
     box-shadow: var(--btn-shadow);
 }
@@ -84,7 +86,6 @@ html {
 .email {
     background-color: white;
     border: solid 1px #D1D5DB;
-
 }
 
 .linkedIn {
