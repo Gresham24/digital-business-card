@@ -8,3 +8,13 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Info />
     </React.StrictMode>
 );
+
+/* 
+
+Create separate components for:
+DONE: - info (photo, name, buttons)
+- about 
+- interests
+- footer (social icons)
+
+*/

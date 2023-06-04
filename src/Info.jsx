@@ -31,13 +31,3 @@ function Info() {
 }
 
 export default Info;
-
-/* 
-
-Create separate components for:
-- info (photo, name, buttons)
-- about 
-- interests
-- footer (social icons)
-
-*/
