@@ -49,6 +49,9 @@ body {
 }
 
 #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 31.7em;
     height: 78em;
     background-color: var(--light-navy);
